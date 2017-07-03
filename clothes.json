@@ -1,9 +1,10 @@
-{ "rclothes": [{
+{ "clothes": [{
     "name": "Veruca Salt",
     "price": "14.5",
     "type": "Shirt",
 		"gender": "male",
 		"age": "15",
+    "date":"17/7/2017",
 		"material": "cotton",
     "image": "http://assets.academy.com/mgen/50/10740350.jpg?is=500,500"
   },  {
@@ -12,7 +13,17 @@
     "type": "Shirt",
 		"gender": "male",
 		"age": "15",
+    "date":"17/7/2017",
 		"material": "cotton",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "I bought 10 pieces, the prices are quite affordable and the quality is good."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice shirt!"
   }]
 }
