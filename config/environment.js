@@ -17,6 +17,17 @@ module.exports = function(environment) {
       }
     },
 
+    //firebase
+    firebase: {
+      apiKey: "AIzaSyBrChHaW0skGaBB-M7D8Z24MonFj1kdAJA",
+      authDomain: "uzi-shop.firebaseapp.com",
+      databaseURL: "https://uzi-shop.firebaseio.com",
+      projectId: "uzi-shop",
+      storageBucket: "uzi-shop.appspot.com",
+      messagingSenderId: "1055615801971"
+
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
