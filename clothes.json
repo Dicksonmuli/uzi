@@ -1,0 +1,18 @@
+{ "rclothes": [{
+    "name": "Veruca Salt",
+    "price": "14.5",
+    "type": "Shirt",
+		"gender": "male",
+		"age": "15",
+		"material": "cotton",
+    "image": "http://assets.academy.com/mgen/50/10740350.jpg?is=500,500"
+  },  {
+		"name": "Veruca Salt",
+    "price": "14.5",
+    "type": "Shirt",
+		"gender": "male",
+		"age": "15",
+		"material": "cotton",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+}
