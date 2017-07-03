@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5,h6{
+font-family: 'PT Serif', serif;
+}
+body{
+  position: relative;
+  z-index: 0;
+}
+p,div,span{
+  font-family: 'Raleway', sans-serif;
+}
+img{
+  height: 480px;
+  width: 100%;
+}
+#navtop{
+  position: relative;
+  z-index: 1;
+}
