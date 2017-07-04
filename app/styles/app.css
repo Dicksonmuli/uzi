@@ -2,8 +2,10 @@ h1,h2,h3,h4,h5,h6{
 font-family: 'PT Serif', serif;
 }
 body{
-  position: relative;
-  z-index: 0;
+}
+input{
+  padding: 10px;
+  width: 300px;
 }
 p,div,span{
   font-family: 'Raleway', sans-serif;
@@ -13,6 +15,58 @@ img{
   width: 100%;
 }
 #navtop{
-  position: relative;
-  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+#navtop div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 400px;
+  flex-direction: row;
+}
+#navtop div :first-child{
+  margin-right: 20px;
+}
+#landing{
+  display: flex;
+  flex-direction: row;
+  background-image: url('../assets/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+#landing p{
+  align-self: center;
+  font-size: 50px;
+  color: black;
+}
+
+#landing div{
+  display: flex;
+  box-shadow: 0px 10px 20px 5px #696969;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  background-color: white;
+  padding: 20px;
+}
+
+#landing div p{
+  font-size: 24px;
+}
+
+#landing div button{
+  padding: 10px 30px 10px 30px;
+  background-color: #696969;
+  border: none;
+  color: white;
+  align-self: center;
 }
