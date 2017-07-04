@@ -3,6 +3,9 @@ font-family: 'PT Serif', serif;
 }
 body{
 }
+button{
+  cursor: pointer;
+}
 input{
   padding: 10px;
   width: 300px;
@@ -36,6 +39,7 @@ img{
   flex-direction: row;
   background-image: url('../assets/home.jpg');
   background-repeat: no-repeat;
+  image-resolution: from-image;
   background-size: cover;
   height: 60vh;
   background-position: center;
@@ -45,13 +49,13 @@ img{
 
 #landing p{
   align-self: center;
-  font-size: 50px;
-  color: black;
+  font-size: 80px;
+  color: white;
 }
 
 #landing div{
   display: flex;
-  box-shadow: 0px 10px 20px 5px #696969;
+  box-shadow: 0px 10px 20px 5px #1F1F1F;
   justify-content: center;
   flex-direction: column;
   align-self: center;
@@ -60,6 +64,7 @@ img{
 }
 
 #landing div p{
+  color: black;
   font-size: 24px;
 }
 
@@ -69,4 +74,9 @@ img{
   border: none;
   color: white;
   align-self: center;
+  transition: 0.2s;
+}
+
+#landing div button:hover{
+  padding: 15px 35px 15px 35px;
 }
